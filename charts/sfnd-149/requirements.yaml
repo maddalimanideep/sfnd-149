@@ -1,0 +1,13 @@
+dependencies:
+  - name: redis
+    version: 9.2.2
+    repository: file:///home/snappyflow2018/code/charts/stable/redis
+    condition: redis.enable
+  - name: spark-history-server
+    version: 1.1.1
+    repository: file:///home/snappyflow2018/code/charts/stable/spark-history-server
+  - name: elasticsearch
+    version: 1.31.1
+    repository: file:///home/snappyflow2018/code/charts/stable/elasticsearch
+    condition: elasticsearch.enable
+

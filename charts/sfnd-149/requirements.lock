@@ -1,0 +1,9 @@
+dependencies:
+- name: redis
+  repository: file:///home/snappyflow2018/code/charts/stable/redis
+  version: 9.2.2
+- name: spark-history-server
+  repository: file:///home/snappyflow2018/code/charts/stable/spark-history-server
+  version: 1.1.1
+digest: sha256:79348ee0513c543e4ed9c762b80f9623ee0e2d0f9b98db2668edd5cc81d66686
+generated: "2019-10-16T07:07:54.092980656Z"
